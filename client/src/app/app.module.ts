@@ -11,6 +11,7 @@ import {UserListService} from './users/user-list.service';
 import {Routing} from './app.routes';
 import {FormsModule} from '@angular/forms';
 import {APP_BASE_HREF} from "@angular/common";
+import { TodoComponent } from './todos/todo.component';
 import { TodoListComponent } from './todos/todo-list.component';
 
 
@@ -27,7 +28,8 @@ import { TodoListComponent } from './todos/todo-list.component';
         HomeComponent,
         NavbarComponent,
         UserComponent,
-        UserListComponent
+        UserListComponent,
+        TodoComponent,
         TodoListComponent
     ],
     providers: [
